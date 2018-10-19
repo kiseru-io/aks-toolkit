@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: aks-toolkit 
+spec:
+  containers:
+  - name: aks-toolkit
+    image: kiseruio/akas-toolkit
